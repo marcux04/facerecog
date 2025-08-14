@@ -3,11 +3,11 @@ import cv2
 import pickle
 
 
-with open("encodings.pickle", "rb") as f:
+with open("encodings.pkl", "rb") as f:
     data = pickle.load(f)
 
 
-image_path = r"C:\Users\anton\OneDrive\Documentos\face_proyect\dataset\Marco Antonio Lozano Arellano _utm22030693\Marco Antonio Lozano Arellano _utm22030693_1.jpg"  
+image_path = r"C:\Users\anton\Downloads\IMG_20250814_171432.jpg"  
 image = cv2.imread(image_path)
 rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 

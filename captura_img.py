@@ -1,8 +1,8 @@
 import cv2
 import os
 
-name = "Nombre completo"
-student_id = "id"
+name = "carlos"
+student_id = "jt"
 output_dir = f"dataset/{name}_{student_id}"
 
 os.makedirs(output_dir, exist_ok=True)

@@ -32,7 +32,7 @@ for person_name in os.listdir(dataset_dir):
 
 
 data = {"encodings": known_encodings, "names": known_names}
-with open("encodings.pickle", "wb") as f:
+with open("encodings.pkl", "wb") as f:
     pickle.dump(data, f)
 
 print("[INFO] Embeddings generados y guardados.")

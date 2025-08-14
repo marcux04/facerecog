@@ -3,7 +3,8 @@ import cv2
 import pickle
 
 
-with open("encodings.pickle", "rb") as f:
+with open("encodings.pkl" \
+"", "rb") as f:
     data = pickle.load(f)
 
 
